@@ -1,0 +1,83 @@
+/*HTML Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.card_container{
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    
+    
+}
+.card{
+
+    border: 1px solid black;
+    width: 25%;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.button_ct{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+
+    background-color: orange;
+    color: black;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+
+}
+
+.social ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+.social img {
+    
+    height: 48px;
+    width:48px;
+}
+
+.card_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card_image img{
+
+    width: 95%;
+    border-radius: 15px;
+    
+}
+
+.image_comment{
+    margin-top: 15px;
+}
+.image_comment p {
+
+    text-align: center;
+    
+
+}

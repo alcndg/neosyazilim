@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    border: 2px solid black;
+    padding: 10px;
+}
+header {
+
+    background-color: lightblue;
+    height:150px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    }
+
+.content_left {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.content_ltext {
+    margin-top: 10px;
+    background-color: limegreen;
+    width: 100%;
+    height: 130px;
+    border: 2px solid black;
+}
+
+.content_lmenu {
+    margin-top: 10px;
+    background-color: lightblue;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.content_right {
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.content_rmenu {
+
+    margin-top: 10px;
+    background-color: lightblue;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.content_rtext {
+
+    margin-top: 10px;
+    background-color: limegreen;
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+
+}
+
+footer {
+    margin-top: 10px;
+    background-color: limegreen;
+    height:300px;
+    width: 100%;
+    border: 2px solid black;
+
+}
