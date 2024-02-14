@@ -1,0 +1,32 @@
+.navbar-toggler {
+
+    background-color: white;
+
+}
+
+.card, flex-row {
+
+    margin-bottom: 1rem;
+
+}
+
+
+@media screen and (max-width: 792px) {
+   .content_right{
+
+    display: none;
+
+   }
+    }
+  
+    .content_right {
+
+        max-width: 30%;
+    }
+
+    .img-fluid, rounded-start {
+
+        margin-top: 2em;
+        margin-left: 8px;
+
+    }
